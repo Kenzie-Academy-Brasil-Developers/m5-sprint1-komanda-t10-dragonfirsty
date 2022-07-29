@@ -14,8 +14,8 @@ def write_new_item(newItem : dict):
     write_menu(FILEPATH,database_data)
 
 if __name__ == "__main__":
-    #print(read_menu(FILEPATH))
+    print(read_menu(FILEPATH))
         
-    # write_new_item(item)
+    write_new_item(item)
     print(calculo_da_comanda(table_1))
 
